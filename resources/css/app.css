@@ -1,0 +1,128 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+}
+
+body {
+  background: #6c5ce7;
+  color: #fff;
+}
+
+/* Index components */
+.container{
+  max-width: 780px;
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.titlebar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titlebar_item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  border: 1px solid #6a727a;
+  padding: 9px;
+  border-radius: 4px;
+  background: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #f1f1f1;
+  color: #6a727a;
+}
+
+.list_header{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 50px 1fr 120px 120px 120px;
+  color: #6a727a;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #e0e0e0;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 1.2rem;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.list_items{
+  padding: 10px 30px !important;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 50px 1fr 120px 120px 120px;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  color: #6a727a;
+  background-color: #f1f1f1;
+}
+
+.btn-icon{
+  border: 1px solid #e0e0e0;
+  background: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  color: #6a727a;
+  cursor: pointer;
+}
+
+.success:hover{
+  background: rgb(47, 214, 111);
+  color: white;
+}
+
+.danger:hover{
+  background: crimson;
+  color: white;
+}
+
+.card-wrapper{
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 290px);
+  grid-gap: 20px;
+  color: #6a727a;
+  margin-top: 20px;
+}
+
+.card{
+  padding-left: 20px;
+  padding-right: 20px;
+  background: white;
+}
+
+.card, p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.card, input{
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.card, textarea {
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', 'Hervetica News', sans-serif;
+}
