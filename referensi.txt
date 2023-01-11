@@ -3,3 +3,7 @@ laravel new crud-app
 npm install react@latest react-dom@latest
 
 npm install --save-dev @vitejs/plugin-react --force
+
+npm install sweetalert2
+
+composer require intervention/image
