@@ -91,7 +91,7 @@ body {
   color: white;
 }
 
-.card-wrapper{
+.card_wrapper{
   display: grid;
   grid-template-columns: 1fr minmax(auto, 290px);
   grid-gap: 20px;
@@ -125,4 +125,61 @@ body {
   width: 100%;
   font-size: 1.1rem;
   font-family: 'Open Sans', 'Hervetica News', sans-serif;
+}
+
+.media{
+  margin-top: 20px;
+}
+
+.image_list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+.image_item{
+  position: relative;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.image_item-img{
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 117px;
+}
+
+.image_item-form{
+  border: 2px dashed #6a727a;
+  position: relative;
+  cursor: pointer;
+}
+
+.image_item-form--label{
+  padding: 9px 15px;
+  border-radius: 4px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image_item-form--input{
+  height: 100px;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.br{
+  margin-top: 40px;
 }
